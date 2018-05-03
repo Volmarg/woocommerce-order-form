@@ -1,0 +1,180 @@
+body.main {background: #b7bab9 url(../images/backgrounds/main.jpg) no-repeat 0 0 fixed;}
+
+#content .center {padding-top: 50px;}
+
+.upload-button {height: 32px; margin-left: 1.5%!important;}
+.upload-button span {padding: 7px 0 0 10px; font-size: 14px; font-weight: 700; color: #3d3736; float: left;}
+a.button {width: 28px; height: 32px; padding-top: 8px; background-color: #6cccb9; font-size: 16px; color: #fff; text-align: center; display: block; float: left;}
+
+.form-submit-button {margin-top: 21px;}
+a.submit-button {width: 238px; height: 56px; margin: 0 auto; padding-top: 16px; background-color: #6cccb9; font-size: 20px; font-weight: 600; color: #fff; text-align: center; display: block;}
+
+
+table {width: 100%; border-collapse: collapse; border: 1px solid #dcdcdc; font-size: 14px; color: #322b2a;}
+table thead th {width: 61px; height: 31px; padding-top: 8px; background-color: #f6f6f6; font-size: 12px; font-weight: 600; color: #322b2a;}
+table thead th.id {width: 27px;}
+table thead th.id.red {background-color: #6cccb9; font-size: 16px; color: #fff;}
+table thead th.radio {width: 100px; display: table-cell !important;}
+table thead th.medium {width: 91px;}
+table thead th.control {width: 70px;}
+table thead th.desc {width: 100px;}
+table thead th.double {padding-top: 2px;}
+table thead th.delete, table tbody td.delete {width: 30px;}
+table thead a.schematic {margin-left: 10px;}
+table thead a.schematic i {width: 14px; height: 14px; background: url(../images/icon-question.png) no-repeat; display: inline-block; position: absolute;}
+table thead a.fixing {margin-left: 2px;}
+table thead a.fixing i {width: 13px; height: 13px; background: url(../images/icon-question.png) no-repeat; display: inline-block; position: absolute;}
+table tbody td.radio {padding: 5px 0 0 10px;text-align: left;}
+table tbody td {padding-top: 4px;}
+table tbody td.id {text-align: center;}
+table tbody td.medium {text-align: center;}
+table tbody td.desc {width: 129px;}
+table td, table th {border: 1px solid #dcdcdc; vertical-align: top;}
+table td {padding: 5px;text-align: center; position: relative;}
+table input[type=text] {width: 50px; height: 21px; background: url(../images/table-input-bg.png) repeat-x top; border: 1px solid #dcdcdc; display: inline-block;text-align: center;}
+table input.medium {width: 89px;}
+table input.pattern {width: 58px;margin: 0px auto;}
+table input.warning{border-color:#cea000}
+table input.error{border-color:#6cccb9}
+table textarea {width: 127px; height: 83px; background: url(../images/table-input-bg.png) repeat-x top; border: 1px solid #dcdcdc;}
+table tbody td span.delete {position: absolute; top: -1px; left: 136px;}
+table tbody td span.delete i {width: 30px; height: 30px; padding-top: 8px; background-color: #6cccb9; color: #fff; text-align: center; cursor: pointer;}
+
+table.components thead th.name {width: 250px;}
+table.components tbody td.name {padding: 6px 6px;text-align: left;}
+table tbody td.delete i {width: 30px; height: 30px; padding-top: 8px; background-color: #6cccb9; color: #fff; text-align: center; cursor: pointer;}
+table tbody td.quantity > i {color: #6cccb9; display: inline-block; cursor: pointer;}
+table tbody td.quantity input {width: 50px; text-align: center; display: inline-block;}
+
+table.wares thead th.select {width: 105px;}
+table.wares thead th.pattern {width: 70px;}
+table.wares tbody td.control {padding: 10px 0 0 20px;text-align: left;}
+#waresFormHolder{display: none;}
+#waresFormHolder.active{display: block;}
+
+table .errorMsg{color: #6cccb9; font-size: 12px;}
+
+.main-content .box .orderTableHolder{margin: 0px;}
+#order-table-form{min-width: 860px;}
+
+#patternOrder table textarea{width: 147px;height: 40px}
+#patternOrder table td{vertical-align: middle;}
+#patternOrder table .patternCollection{width: 100px;}
+#patternOrder table .patternWidthTd{width: 80px;}
+#patternOrder table .patternCode{width: 70px;}
+
+.componentsForm table textarea{width: 147px;height: 40px}
+.componentsForm table td{vertical-align: middle;}
+
+#order-form {position: relative;}
+#order-form .loading-layer {width: 100%; height: 100%; background: rgba(255, 255, 255, 0.8) url(../images/ajax-loader.gif) no-repeat center; position: absolute; top: 0; left: 0;z-index: 9999;}
+
+#order-table-form tbody tr.pattern-row {display: none;}
+
+.form-status {margin: 20px 20px 10px; display: none;}
+
+#patternOrder{}
+.emptyRow{display: none;}
+#patternOrder table tr td{text-align: center;}
+#patternOrder table tr td input{display: inline-block;}
+
+#order-table-form .sbHolder {width: 82px!important; height: 23px; background: url(../images/table-input-bg.png) repeat-x top;display: inline-block;float: none;}
+#order-table-form .sbSelector {width: 69px!important; height: 23px; line-height: 20px;}
+#order-table-form .sbHolder .sbOptions {width: 150px;}
+#order-table-form .sbHolder .sbOptions a {padding: 0 0 2px 7px; border-bottom: 1px dotted #cdcdcd;}
+#order-table-form .sbHolder .sbOptions a:hover {background-color: #ededed!important;}
+#order-table-form .sbHolder .sbOptions a.sbFocus {color: #1f2022; background-color: #ededed;}
+#order-table-form .sbHolder .sbToggle {width: 21px; height: 21px; border-left: 1px solid #dcdcdc; background: url(../images/selectbox-table-button.png) no-repeat 0 0;}
+#order-table-form .sbHolder .sbToggleOpen {background-position: 0 -26px;}
+
+#order-table-form .product-color-td .sbHolder{width:112px !important;font-size: 11px;padding-left: 5px;}
+#order-table-form .product-color-td .sbSelector {width: 89px!important; text-indent: 5px;}
+#order-table-form .product-color-td select{width: 112px;}
+
+#order-table-form .product-model-td .sbHolder{font-size: 11px;}
+#order-table-form .product-model-td .sbSelector {text-indent: 5px;}
+#order-table-form .product-model-td select{width: 82px;}
+
+#order-table-form .product-fixing-td .sbHolder{width: 50px!important; font-size: 11px;}
+#order-table-form .product-fixing-td .sbHolder .sbOptions {width: 66px;}
+#order-table-form .product-fixing-td .sbSelector {width: 28px!important; text-indent: 5px;}
+#order-table-form .product-fixing-td select{width: 52px;}
+
+
+ul.attachments {margin: 10px 0 0 50px;}
+ul.attachments li {height: 20px; padding-left: 20px; position: relative;}
+ul.attachments li i {color: #6cccb9; position: absolute; left: 0; top: 4px; cursor: pointer;}
+
+.product-icons {padding: 40px 0px 20px 0px;}
+.product-icons ul {}
+.product-icons ul li {width: 31%; height: 160px; margin: 1%; padding: 66px 0 0 15%; font-size: 24px; font-weight: 700; color: #7e7e7e; text-align: center; border: 1px solid #dcdcdc; float: left; cursor: pointer; position: relative;box-sizing: border-box}
+.product-icons ul li:hover {border-color: #000; color: #000;}
+.product-icons ul li.active {border-color: #000; color: #000;}
+.product-icons ul span {width: 45%; height: 137px; background: url(../images/product-icons.png) no-repeat 0 0; display: block; position: absolute; top: 11px; left: 0;}
+.product-icons ul li.plisy span {background-position: -137px 0;}
+.product-icons ul li.rolety span {background-position: -137px -137px;}
+.product-icons ul li.verticale span {background-position: -137px -274px;}
+.product-icons ul li.plisy:hover span {background-position: 0 0;}
+.product-icons ul li.rolety:hover span {background-position: 0 -137px;}
+.product-icons ul li.verticale:hover span {background-position: 0 -274px;}
+
+#btn-attachment {width: 130px;}
+
+
+/* ==========================================================
+! Large desktop
+========================================================== */
+@media (max-width: 1199px) {
+    .main-content .box .orderTableHolder{width:100%;overflow-x: auto;}
+    .product-icons ul li {height: auto;padding: 156px 0 20px 0;}
+    .product-icons ul span {top: 10px; left: 50%;margin-left: -72px;width: 144px;}
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    table thead a.fixing i, table thead a.schematic i {position: inherit;}
+}
+/* ==========================================================
+! Portrait tablet to landscape and desktop
+========================================================== */
+@media (min-width: 768px) and (max-width: 979px) {
+    table thead a.fixing i, table thead a.schematic i {position: inherit;}
+}
+/* ==========================================================
+! Landscape phone to portrait tablet
+========================================================== */
+@media (max-width: 767px) {
+    .main-content #order-form .box{float: none; width: auto;}
+    .main-content .box > div.textarea label {float: none;width: auto;display: block;}
+    .main-content .box > div.textarea textarea {width: 100%;}
+    table thead a.fixing i, table thead a.schematic i {position: inherit;}
+}
+@media (max-width: 600px) {
+
+}
+/* ==========================================================
+! Landscape phones and down
+========================================================== */
+@media (max-width: 480px) {
+    .page-content .side{display: none;}
+    .page-content .main-content{width: 100%;}
+}
+
+#order-table-form .patternRow .disabled .disablediv{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: 1;
+    cursor: not-allowed;
+    background-color: #EEE;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + 70 + ")";
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+#order-table-form .product-system p{ display: none; }
+#order-table-form td{ padding-left: 5px; }
+#order-table-form td p{ text-align: left; }
+table#order-table-form input[type="text"]{ width: 120px !important;height:25px; }
+table#order-table-form input[type="text"].patternCode{ width: 50px; }
+table#order-table-form input[type="text"].pattern{ width: 50px; }
+#order-table-form .product-fixing-td .sbHolder .sbOptions{ width: 110px; border: 1px dotted #cdcdcd; }
+#order-table-form .product-fixing-td .sbSelector{ width: 22px !important; }
+#order-table-form td.product-fixing-td{ max-width: 45px; }
